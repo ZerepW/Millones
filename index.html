@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Millones</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+
+  </head>
+
+  <body style="background-color:#000;color:#fff">
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="index.html">SMJ Inc</a></li>
+            <li role="presentation"><a href="contrato.html">Contrato</a></li>
+            <li role="presentation"><a href="materiales.html">Materiales</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Marco Antonio Vásquez Millones</h3>
+      </div>
+
+      <div class="jumbotron" style="background-color:#FFC214;color:#fff">
+        <h1>S.M.J INC</h1>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>22 de Agosto</h4>
+          <p>El 22 de agosto se empezó a realizar el contrato empezando con los integrantes del equipo, el nombre del equipo y la temática que esta llevará, acordando fechas de que día se hará cada actividad y cuando se debe de entregar.</p>
+
+          <h4>23 de Agosto</h4>
+          <p>El 23 de agosto el secretario, líder y critico hicieron en contrato de “acta de compromiso” y cuando se finalizo fue firmada por todos los integrantes del equipo.</p>
+
+          <h4>29 de Agosto</h4>
+          <p>El día 29 de agosto se investigaron los varios términos de montañas rusas y softwares de diseño elegido este por el tecnólogo. También se hizo el bosquejo de las montañas rusas individualmente y al final se seleccionó una, para que esa fuera la original.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>30 de Agosto</h4>
+          <p>El día 30 de agosto se hizo el boceto original, con los colores que debería de llevar la montaña rusa, echa a mano por el líder y el secretario y fue mandado al correo del profesor.</p>
+
+          <h4>5 de Septiembre</h4>
+          <p>El 5 de septiembre se hizo un problema simulando la velocidad que tendría la montaña en una de las bajadas y fue dejado de tarea la entrega del boceto en 3D de la montaña rusa para el día domingo.</p>
+
+          <h4>9 de Septiembre</h4>
+          <p>El día 9 de septiembre se hizo el diseño 3D y fue mandado al profesor.</p>
+		  
+		  <h4>12 de Septiembre</h4>
+          <p>El día 12 de septiembre fue dejado de tarea la página en formato html para que sea entregada el di 16 de septiembre y será echa los días 13, 14 y 15 de septiembre.</p>
+        </div>
+      </div>
+		<section>
+		 <h2 class="w3-wide">Diseño 3D</h2>
+		  <img class="mySlides2" src="img01.png" style="width:60%">
+		  <img class="mySlides2" src="img02.png" style="width:60%">		  
+		  <img class="mySlides2" src="img03.png" style="width:60%">
+		  <hr>
+		</section>
+		
+		<br>
+		<section>
+		 <h2 class="w3-wide">Bocetos</h2>
+		  <img class="mySlides3" src="img04.jpeg" style="width:60%">
+		  <img class="mySlides3" src="img05.jpeg" style="width:60%">		  
+		  <img class="mySlides3" src="img06.jpeg" style="width:60%">
+		  <img class="mySlides3" src="img07.jpeg" style="width:60%">
+		  <img class="mySlides3" src="img08.jpeg" style="width:60%">
+		</section>
+      <footer class="footer">
+        <p>© S.M.J INC. <a href="home.html">Thunder Coaster</a>. Todos los derechos reservados. Marco Antonio Vásquez Millones - A01273672</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script>
+	// Automatic Slideshow - Cambia cada 3 segundos
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+		var i;
+		var x = document.getElementsByClassName("mySlides2");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}
+		x[myIndex-1].style.display = "block";
+		setTimeout(carousel, 3000);
+	}
+	
+	var myIndex2 = 0;
+	carousel2();
+
+	function carousel2() {
+		var i2;
+		var x2 = document.getElementsByClassName("mySlides3");
+		for (i2 = 0; i2 < x2.length; i2++) {
+			x2[i2].style.display = "none";
+		}
+		myIndex2++;
+		if (myIndex2 > x2.length) {myIndex2 = 1}
+		x2[myIndex2-1].style.display = "block";
+		setTimeout(carousel2, 3000);
+	}
+	</script>
+  </body>
+</html>
